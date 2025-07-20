@@ -13,6 +13,7 @@ https://radxa.com/products/zeros/zero3w
     2. Wireless support: Core of this project is the wireless capabilities of IEEE 802.11 a/b/g/n/ac/ax or wifi 6. This board also has an onboard antenna that will be more than enough for us but options to extend the antenna connector. In future iterations, we should be able to leverage the Ansys HFSS antenna permiation simulation test that can show us the best area for when we create the physical headset/glasses. 
     3. USB support: for the proof of concept, we will leverage the USB Type-C interface, but as we move to creating a custom PCB we will find ways to leverage this interface for input controls. For the proof of concept we are going to use usb for power and programming the board.
     4. Camera support: There is a 22 pin MIPI CSI port that can support a 8 megapixel camera. 8mp camera isnt acceptable in todays standards but this will support gesture and hand tracking. for the proof of concept we can attach a camera for this purpose but this is a north star goal. The priority is getting all these parts working on conjunction. 
+
 -
 **Other components of this project include (but not limited to):**
 -
