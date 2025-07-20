@@ -14,6 +14,8 @@ https://radxa.com/products/zeros/zero3w
     3. USB support: for the proof of concept, we will leverage the USB Type-C interface, but as we move to creating a custom PCB we will find ways to leverage this interface for input controls. For the proof of concept we are going to use usb for power and programming the board.
     4. Camera support: There is a 22 pin MIPI CSI port that can support a 8 megapixel camera. 8mp camera isnt acceptable in todays standards but this will support gesture and hand tracking. for the proof of concept we can attach a camera for this purpose but this is a north star goal. The priority is getting all these parts working on conjunction. 
 
+<img width="2080" height="1168" alt="image" src="https://github.com/user-attachments/assets/98d68ecd-259f-4435-8887-71784eb540a0" />
+
 -
 **Other components of this project include (but not limited to):**
 -
@@ -23,11 +25,20 @@ What I need to understand is the exact layout and reference schematics for the d
 
 **90 Degree Right Angle Prism:** The HDMI panel, though small wont suffice for a transparent display. We will use techniques to reflect light in this case we will use a 10mm x 10mm x 10mm right angle prism. We are folding or redirecting the image path created by the LCD mentioned above. a quick example of this is google glass. 
 
+<img width="750" height="676" alt="image" src="https://github.com/user-attachments/assets/a53ecf1b-50e9-4b61-890f-76c3581d51b6" />
+
 **Plano-Convex Magnifying lens:** Once we are able to adequately redirect the light we need to then magnify the image as we are still project a 0.71 inch screen. Because of this we need to mount the lens around 25-30mm from the naked eye. Since we are not directly putting this lens infront of your eye we have more room to work. Going to use JiaTong 20mm diameter plano-convex lenses with a 15mm focal length. The material isnt glass but thats ok considering we are focused on a proof of concept and an MVP. in future iterations we can get glass lens with anti reflective coatings or even optical glass with AR coating. 
 
-**Optical Combiner Element:** Finally once we have the lens assembly we can add a optical semi transparent mirrors as a budget friendly combiner. The combiner sits infront of your eye and behind the lends of the glasses. this will reflect the image magnified by the lens and be transparent enough to see past. Ideally we would need a similar 20mm x 20mm size with a 1mm thickness. The material is plastic with no AR coating and must be set at a 45 degree angle. 
+<img width="740" height="375" alt="image" src="https://github.com/user-attachments/assets/79374313-53e4-45f2-a18c-a6c891826d0a" />
+
+**Optical Combiner Element:** Finally once we have the lens assembly we can add a optical semi transparent mirrors as a budget friendly combiner. The combiner sits infront of your eye and behind the lends of the glasses. this will reflect the image magnified by the lens and be transparent enough to see past. Ideally we would need a similar 20mm x 20mm size with a 1mm thickness. The material is plastic with no AR coating and must be set at a 45 degree angle.
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/dbf60f35-46a7-4de3-8f96-6926938a45fa" />
 
 **3d Printer:** for the enclosure and glasses, the great majority of the frame will be 3d printed. The only thing I cannot print would be the lenses themselves. Currently using a Bambu x1 Carbon. 
+
+<img width="1568" height="882" alt="image" src="https://github.com/user-attachments/assets/01a83c9c-7ae3-4a5b-b15f-47c4b72d92e4" />
+
 -
 **Software include (but not limited to)**
 -
