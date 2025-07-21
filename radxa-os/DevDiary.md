@@ -1,4 +1,4 @@
-7/20/2025
+**7/20/2025**
 Today was terrible. 
 Tried to get some hands on time with the Armbian OS and set up some directories in the Git repo. I was able to submit a few basic commands for git setting up the directory for the os along with the customize-image.sh to inject the armbian build into and readme file.
 I progressed quickly into the next phase but ran into my first roadblock. the Armbian build system it self as i need to install armbian into a system. The suggestion from Chatgpt was to run a baremetal or VM of Ubuntu 20.04. I am low on space on my hard drives
