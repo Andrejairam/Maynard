@@ -17,3 +17,15 @@ Fine ok that doesnt seem impossible. After digging through documentation and tri
 I am unsure how to progress as every time I try to load an image on this eMMC it fails. I think I have an option to just wipe the eMMC and get the Radxa to boot direcrtly from the SD card. feels like I wasted all this time today for basically no movement.
 Fuck. 
 
+**7/22/2025**
+I was able to format the SD card again and put Radxa's debian. I was able to let it boot back up which was great and testing out a few functions. I quickly found out the wifi connection does not work with the Linux install for some reason. The wifi module works with my cellphone so this could be an issue with xfinity routers and or 2.4/5ghz frequency. This is also a problem talked about in the Radxa forums. After troubleshooting their solutions and nothing worked I stopped. That was yesterday but didnt log it due to nothing being done. Today I formated the hard drive and found a different Armbian install from the community. https://github.com/armbian/community/releases, searched for zero3 and  found an image. Was able to flash that on the SD card and boot the system. Well kinda. I am now stuck at a black screen with 
+
+nearing the end of the entry I got this error:
+
+Gave up waiting for root file system device.
+Alert! UUID=d4221fb8-21ec-47aa-bab2-85a7a71865cf does not exist. 
+Dropping to shell! 
+(initramfs)
+
+I am now stuck at trying to get past this screen from the information  before there is aline that references the check rootdelay= (did the system wait long enough)
+Since I dont have a linux system i tried to use my windows system to open the SD card and modify the files but this is also a new problem as I am no longer able to detect the SD card on my windows machine. This may be from the armbian flash. I will try on my macbook later when i find the usb c to usb a converter. 
