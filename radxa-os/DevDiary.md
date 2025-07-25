@@ -29,3 +29,8 @@ Dropping to shell!
 
 I am now stuck at trying to get past this screen from the information  before there is aline that references the check rootdelay= (did the system wait long enough)
 Since I dont have a linux system i tried to use my windows system to open the SD card and modify the files but this is also a new problem as I am no longer able to detect the SD card on my windows machine. This may be from the armbian flash. I will try on my macbook later when i find the usb c to usb a converter. 
+
+**7/24/2025**
+I'm in. Yesterday was long between studyin for GRE, applyingn to jobs that I will probably not even be interviewed for and working on this. I narrowed down the problem to not having a single line in the armbianenv.txt file which was rootdelay=10. Yes that one line disabled me from running on the Zero. In order to do this I needed to download Ubuntu and have it booted off of one of my computers. Easy enough until in my haste I decided to make a Surface Go tablet my Linux computer. Appearently, its difficult to boot any usb on surface products. After trial and error I was able  to use the recovery boot options to force a restart and then force the computer to boot into Ubuntu. The SD card reader wasnt working on the tablet but I was lucky Surface Gos have a micro sd card slot under the kick stand. Once booted, I used the search function and found the armbianenv.txt and added "rootdelay=10" on the 5th line of the txt file. Swapped it over to the Radxa and managed to run it! I will need to update the files here to reflect not using the radxa-os and bonus, the fucking wifi works. 
+
+Going to hammer out a few more things before I go work out. 
